@@ -1,4 +1,4 @@
-impory streamlit as st
+import streamlit as st
 st. title('나의 첫 번째 웹 서비스!')
 name = st.text_input('이름을 선택해주세요 : ')
 menu = st.slectectbox('좋아하는 음식을 선택하세요!', ['망고 빙수', '상하이치킨버거'. ' 아몬드 봉봉'])
